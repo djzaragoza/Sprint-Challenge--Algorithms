@@ -99,8 +99,9 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
+        # Objective -- 
 
-        self.set_light_on()
+        self.set_light_on()  # light is ON!
 
         while self.light_is_on() == True:
             self.set_light_off()
